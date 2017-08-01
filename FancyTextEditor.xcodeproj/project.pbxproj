@@ -12,6 +12,10 @@
 		8386F01E1F308F5B00DCAAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8386F01C1F308F5B00DCAAA6 /* Main.storyboard */; };
 		8386F0201F308F5B00DCAAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8386F01F1F308F5B00DCAAA6 /* Assets.xcassets */; };
 		8386F0231F308F5B00DCAAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8386F0211F308F5B00DCAAA6 /* LaunchScreen.storyboard */; };
+		8386F02B1F3090C100DCAAA6 /* Spectral-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8386F02A1F3090C100DCAAA6 /* Spectral-Regular.ttf */; };
+		8386F02D1F30911700DCAAA6 /* GloriaHallelujah.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8386F02C1F30911700DCAAA6 /* GloriaHallelujah.ttf */; };
+		8386F02F1F30912A00DCAAA6 /* IndieFlower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8386F02E1F30912A00DCAAA6 /* IndieFlower.ttf */; };
+		8386F0311F30913800DCAAA6 /* Julee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8386F0301F30913800DCAAA6 /* Julee-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8386F01F1F308F5B00DCAAA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8386F0221F308F5B00DCAAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8386F0241F308F5B00DCAAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8386F02A1F3090C100DCAAA6 /* Spectral-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Spectral-Regular.ttf"; path = "../../../../../../Downloads/Spectral/Spectral-Regular.ttf"; sourceTree = "<group>"; };
+		8386F02C1F30911700DCAAA6 /* GloriaHallelujah.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = GloriaHallelujah.ttf; path = ../../../../../../Downloads/fonts/Gloria_Hallelujah/GloriaHallelujah.ttf; sourceTree = "<group>"; };
+		8386F02E1F30912A00DCAAA6 /* IndieFlower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = IndieFlower.ttf; path = ../../../../../../Downloads/fonts/Indie_Flower/IndieFlower.ttf; sourceTree = "<group>"; };
+		8386F0301F30913800DCAAA6 /* Julee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Julee-Regular.ttf"; path = "../../../../../../Downloads/fonts/Julee/Julee-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		8386F0171F308F5B00DCAAA6 /* FancyTextEditor */ = {
 			isa = PBXGroup;
 			children = (
+				8386F0301F30913800DCAAA6 /* Julee-Regular.ttf */,
+				8386F02E1F30912A00DCAAA6 /* IndieFlower.ttf */,
+				8386F02C1F30911700DCAAA6 /* GloriaHallelujah.ttf */,
+				8386F02A1F3090C100DCAAA6 /* Spectral-Regular.ttf */,
 				8386F0181F308F5B00DCAAA6 /* AppDelegate.swift */,
 				8386F01A1F308F5B00DCAAA6 /* ViewController.swift */,
 				8386F01C1F308F5B00DCAAA6 /* Main.storyboard */,
@@ -123,8 +135,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8386F0231F308F5B00DCAAA6 /* LaunchScreen.storyboard in Resources */,
+				8386F02B1F3090C100DCAAA6 /* Spectral-Regular.ttf in Resources */,
+				8386F02D1F30911700DCAAA6 /* GloriaHallelujah.ttf in Resources */,
 				8386F0201F308F5B00DCAAA6 /* Assets.xcassets in Resources */,
 				8386F01E1F308F5B00DCAAA6 /* Main.storyboard in Resources */,
+				8386F0311F30913800DCAAA6 /* Julee-Regular.ttf in Resources */,
+				8386F02F1F30912A00DCAAA6 /* IndieFlower.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

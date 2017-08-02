@@ -54,6 +54,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func shadowButtonPressed(_ sender: UIButton) {
+        label.layer.shadowColor = UIColor.gray.cgColor
+        label.layer.shadowOffset = CGSize(width: 4, height: 4)
+        label.layer.shadowRadius = 3.0
+        label.layer.shadowOpacity = 0.8
+        
     }
     
     @IBAction func sizeButtonPressed(_ sender: UIButton) {

@@ -30,6 +30,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func colorButtonPressed(_ sender: UIButton) {
+        
+        if sender.tag == 0 {
+            label.textColor = UIColor.red
+        } else if sender.tag == 1 {
+            label.textColor = UIColor.blue
+        } else if sender.tag == 2 {
+            label.textColor = UIColor.green
+        }
     }
     
     @IBAction func fontButtonPressed(_ sender: UIButton) {

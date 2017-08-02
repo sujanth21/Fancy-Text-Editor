@@ -60,7 +60,7 @@
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
-                                    <action selector="textFieldPressed:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="qI9-fp-LLY"/>
+                                    <action selector="textFieldPressed:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="7s9-RT-esM"/>
                                 </connections>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nfq-Xu-c28">
@@ -76,6 +76,9 @@
                                                 <state key="normal" title="Red">
                                                     <color key="titleColor" red="1" green="0.42154356999999998" blue="0.46701779980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="colorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I6J-kM-CBX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ND-FM-401">
                                                 <rect key="frame" x="120.5" y="0.0" width="114" height="48"/>
@@ -95,6 +98,9 @@
                                                 <state key="normal" title="Green">
                                                     <color key="titleColor" red="0.015686274510000001" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="colorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Suh-0d-u6n"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -178,6 +184,9 @@
                                                 <state key="normal" title="Small">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="sizeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yYM-ZO-I1u"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeM-sd-Eaz">
                                                 <rect key="frame" x="121.5" y="0.0" width="112" height="48"/>
@@ -186,6 +195,9 @@
                                                 <state key="normal" title="Medium">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="sizeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X8x-aK-bFx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAP-gc-uk3">
                                                 <rect key="frame" x="243.5" y="0.0" width="111.5" height="48"/>

@@ -41,6 +41,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func fontButtonPressed(_ sender: UIButton) {
+        
+        if sender.tag == 0 {
+            label.font = UIFont(name: "Julee-Regular", size: 40)
+        } else if sender.tag == 1 {
+            label.font = UIFont(name: "IndieFlower", size: 40)
+        } else if sender.tag == 2 {
+            label.font = UIFont(name: "GloriaHallelujah", size: 40)
+        } else if sender.tag == 3 {
+            label.font = UIFont(name: "Spectral-Regular", size: 40)
+        }
     }
     
     @IBAction func shadowButtonPressed(_ sender: UIButton) {

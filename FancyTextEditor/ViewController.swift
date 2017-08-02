@@ -62,6 +62,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sizeButtonPressed(_ sender: UIButton) {
+        
+        if sender.tag == 0 {
+            label.font = label.font.withSize(20)
+        } else if sender.tag == 1 {
+            label.font = label.font.withSize(30)
+        } else if sender.tag == 2 {
+            label.font = label.font.withSize(40)
+        }
     }
     
     
